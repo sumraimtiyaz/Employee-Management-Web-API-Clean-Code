@@ -1,0 +1,17 @@
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Persistence\bin\Debug\net8.0\EmployeeManagement.Persistence.deps.json
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Persistence\bin\Debug\net8.0\EmployeeManagement.Persistence.runtimeconfig.json
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Persistence\bin\Debug\net8.0\EmployeeManagement.Persistence.dll
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Persistence\bin\Debug\net8.0\EmployeeManagement.Persistence.pdb
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Persistence\bin\Debug\net8.0\EmployeeManagement.Domain.dll
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Persistence\bin\Debug\net8.0\EmployeeManagement.Domain.pdb
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Persistence\obj\Debug\net8.0\EmployeeManagement.Persistence.csproj.AssemblyReference.cache
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Persistence\obj\Debug\net8.0\EmployeeManagement.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Persistence\obj\Debug\net8.0\EmployeeManagement.Persistence.AssemblyInfoInputs.cache
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Persistence\obj\Debug\net8.0\EmployeeManagement.Persistence.AssemblyInfo.cs
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Persistence\obj\Debug\net8.0\EmployeeManagement.Persistence.csproj.CoreCompileInputs.cache
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Persistence\obj\Debug\net8.0\EmployeeManagement.Persistence.csproj.CopyComplete
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Persistence\obj\Debug\net8.0\EmployeeManagement.Persistence.dll
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Persistence\obj\Debug\net8.0\refint\EmployeeManagement.Persistence.dll
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Persistence\obj\Debug\net8.0\EmployeeManagement.Persistence.pdb
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Persistence\obj\Debug\net8.0\EmployeeManagement.Persistence.genruntimeconfig.cache
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Persistence\obj\Debug\net8.0\ref\EmployeeManagement.Persistence.dll

@@ -1,0 +1,332 @@
+2025-02-16 22:17:01.772 +05:30 [INF] Now listening on: https://localhost:7180
+2025-02-16 22:17:01.840 +05:30 [INF] Now listening on: http://localhost:5017
+2025-02-16 22:17:01.844 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-16 22:17:01.846 +05:30 [INF] Hosting environment: Development
+2025-02-16 22:17:01.847 +05:30 [INF] Content root path: E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.API
+2025-02-16 22:17:03.311 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/swagger/index.html - null null
+2025-02-16 22:17:04.000 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/swagger/index.html - 200 null text/html;charset=utf-8 709.2995ms
+2025-02-16 22:17:04.352 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-16 22:17:04.378 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/swagger/index.js - null null
+2025-02-16 22:17:04.378 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/_vs/browserLink - null null
+2025-02-16 22:17:04.726 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 373.4818ms
+2025-02-16 22:17:04.744 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/swagger/index.js - 200 null application/javascript;charset=utf-8 365.4405ms
+2025-02-16 22:17:04.870 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/_vs/browserLink - 200 null text/javascript; charset=UTF-8 491.1702ms
+2025-02-16 22:17:06.104 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/swagger/v1/swagger.json - null null
+2025-02-16 22:17:06.437 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 333.0041ms
+2025-02-16 22:28:27.822 +05:30 [INF] Now listening on: https://localhost:7180
+2025-02-16 22:28:27.983 +05:30 [INF] Now listening on: http://localhost:5017
+2025-02-16 22:28:27.996 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-16 22:28:28.027 +05:30 [INF] Hosting environment: Development
+2025-02-16 22:28:28.028 +05:30 [INF] Content root path: E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.API
+2025-02-16 22:28:28.501 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/swagger/index.html - null null
+2025-02-16 22:28:29.110 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/swagger/index.html - 200 null text/html;charset=utf-8 628.3518ms
+2025-02-16 22:28:29.230 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-16 22:28:29.230 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/swagger/index.js - null null
+2025-02-16 22:28:29.230 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/_vs/browserLink - null null
+2025-02-16 22:28:29.439 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 209.033ms
+2025-02-16 22:28:29.449 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/swagger/index.js - 200 null application/javascript;charset=utf-8 218.2654ms
+2025-02-16 22:28:29.644 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/_vs/browserLink - 200 null text/javascript; charset=UTF-8 413.37ms
+2025-02-16 22:28:30.589 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/swagger/v1/swagger.json - null null
+2025-02-16 22:28:30.938 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 348.4462ms
+2025-02-16 22:28:45.924 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7180/api/Employees/CreateEmployee - application/json 138
+2025-02-16 22:28:45.952 +05:30 [INF] Executing endpoint 'EmployeeManagement.API.Controllers.EmployeesController.CreateEmployee (EmployeeManagement.API)'
+2025-02-16 22:28:46.017 +05:30 [INF] Route matched with {action = "CreateEmployee", controller = "Employees"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Int32]] CreateEmployee(EmployeeManagement.Domain.Entities.Employee) on controller EmployeeManagement.API.Controllers.EmployeesController (EmployeeManagement.API).
+2025-02-16 22:28:51.713 +05:30 [INF] Executed DbCommand (124ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+CALL InsertEmployee(@p0, @p1, @p2, @p3)
+2025-02-16 22:28:51.742 +05:30 [INF] Executing CreatedAtActionResult, writing value of type '<>f__AnonymousType2`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-16 22:28:51.773 +05:30 [INF] Executed action EmployeeManagement.API.Controllers.EmployeesController.CreateEmployee (EmployeeManagement.API) in 5749.8115ms
+2025-02-16 22:28:51.777 +05:30 [INF] Executed endpoint 'EmployeeManagement.API.Controllers.EmployeesController.CreateEmployee (EmployeeManagement.API)'
+2025-02-16 22:28:51.785 +05:30 [ERR] HTTP POST /api/Employees/CreateEmployee responded 500 in 5843.3720 ms
+System.InvalidOperationException: No route matches the supplied values.
+   at Microsoft.AspNetCore.Mvc.CreatedAtActionResult.OnFormatting(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-02-16 22:28:51.851 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No route matches the supplied values.
+   at Microsoft.AspNetCore.Mvc.CreatedAtActionResult.OnFormatting(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-16 22:28:51.893 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7180/api/Employees/CreateEmployee - 500 null text/plain; charset=utf-8 5969.3225ms
+2025-02-16 22:31:15.521 +05:30 [INF] Now listening on: https://localhost:7180
+2025-02-16 22:31:15.617 +05:30 [INF] Now listening on: http://localhost:5017
+2025-02-16 22:31:15.624 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-16 22:31:15.627 +05:30 [INF] Hosting environment: Development
+2025-02-16 22:31:15.629 +05:30 [INF] Content root path: E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.API
+2025-02-16 22:31:21.456 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/swagger/index.html - null null
+2025-02-16 22:31:22.099 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/swagger/index.html - 200 null text/html;charset=utf-8 654.0592ms
+2025-02-16 22:31:22.205 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-16 22:31:22.205 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/swagger/index.js - null null
+2025-02-16 22:31:22.206 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/_vs/browserLink - null null
+2025-02-16 22:31:22.475 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/swagger/index.js - 200 null application/javascript;charset=utf-8 268.7867ms
+2025-02-16 22:31:22.486 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 280.7368ms
+2025-02-16 22:31:22.692 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/_vs/browserLink - 200 null text/javascript; charset=UTF-8 486.092ms
+2025-02-16 22:31:23.539 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/swagger/v1/swagger.json - null null
+2025-02-16 22:31:23.899 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 360.394ms
+2025-02-16 22:31:30.928 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7180/api/Employees/CreateEmployee - application/json 138
+2025-02-16 22:31:30.959 +05:30 [INF] Executing endpoint 'EmployeeManagement.API.Controllers.EmployeesController.CreateEmployee (EmployeeManagement.API)'
+2025-02-16 22:31:31.020 +05:30 [INF] Route matched with {action = "CreateEmployee", controller = "Employees"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Int32]] CreateEmployee(EmployeeManagement.Domain.Entities.Employee) on controller EmployeeManagement.API.Controllers.EmployeesController (EmployeeManagement.API).
+2025-02-16 22:31:36.115 +05:30 [ERR] Failed executing DbCommand (86ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+CALL InsertEmployee(@p0, @p1, @p2, @p3)
+2025-02-16 22:31:36.265 +05:30 [ERR] Error while adding employee: {"Id":0,"Name":"string","Email":"string","Department":"string","Salary":0,"CreatedAt":"0001-01-01T00:00:00.0000000","$type":"Employee"}
+MySqlConnector.MySqlException (0x80004005): Duplicate entry 'string' for key 'employees.email'
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteNonQueryAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 309
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.ExecuteSqlRawAsync(DatabaseFacade databaseFacade, String sql, IEnumerable`1 parameters, CancellationToken cancellationToken)
+   at EmployeeManagement.Persistence.Interfaces.Implementation.EmployeeRepository.AddAsync(Employee employee) in E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Persistence\Interfaces\Implementation\EmployeeRepository.cs:line 54
+2025-02-16 22:31:36.742 +05:30 [INF] Executed action EmployeeManagement.API.Controllers.EmployeesController.CreateEmployee (EmployeeManagement.API) in 5716.0141ms
+2025-02-16 22:31:36.746 +05:30 [INF] Executed endpoint 'EmployeeManagement.API.Controllers.EmployeesController.CreateEmployee (EmployeeManagement.API)'
+2025-02-16 22:31:36.753 +05:30 [ERR] HTTP POST /api/Employees/CreateEmployee responded 500 in 5802.5754 ms
+System.ApplicationException: An error occurred while adding an employee.
+ ---> MySqlConnector.MySqlException (0x80004005): Duplicate entry 'string' for key 'employees.email'
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteNonQueryAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 309
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.ExecuteSqlRawAsync(DatabaseFacade databaseFacade, String sql, IEnumerable`1 parameters, CancellationToken cancellationToken)
+   at EmployeeManagement.Persistence.Interfaces.Implementation.EmployeeRepository.AddAsync(Employee employee) in E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Persistence\Interfaces\Implementation\EmployeeRepository.cs:line 54
+   at EmployeeManagement.Application.Command.AddEmployeeCommand.Handler.Handle(Command request, CancellationToken cancellationToken) in E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Application\Command\AddEmployeeCommand.cs:line 51
+   --- End of inner exception stack trace ---
+   at EmployeeManagement.Application.Command.AddEmployeeCommand.Handler.Handle(Command request, CancellationToken cancellationToken) in E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Application\Command\AddEmployeeCommand.cs:line 57
+   at EmployeeManagement.API.Controllers.EmployeesController.CreateEmployee(Employee newEmployee) in E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.API\Controllers\EmployeesController.cs:line 52
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-02-16 22:31:36.853 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ApplicationException: An error occurred while adding an employee.
+ ---> MySqlConnector.MySqlException (0x80004005): Duplicate entry 'string' for key 'employees.email'
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteNonQueryAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 309
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.ExecuteSqlRawAsync(DatabaseFacade databaseFacade, String sql, IEnumerable`1 parameters, CancellationToken cancellationToken)
+   at EmployeeManagement.Persistence.Interfaces.Implementation.EmployeeRepository.AddAsync(Employee employee) in E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Persistence\Interfaces\Implementation\EmployeeRepository.cs:line 54
+   at EmployeeManagement.Application.Command.AddEmployeeCommand.Handler.Handle(Command request, CancellationToken cancellationToken) in E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Application\Command\AddEmployeeCommand.cs:line 51
+   --- End of inner exception stack trace ---
+   at EmployeeManagement.Application.Command.AddEmployeeCommand.Handler.Handle(Command request, CancellationToken cancellationToken) in E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Application\Command\AddEmployeeCommand.cs:line 57
+   at EmployeeManagement.API.Controllers.EmployeesController.CreateEmployee(Employee newEmployee) in E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.API\Controllers\EmployeesController.cs:line 52
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-16 22:31:36.964 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7180/api/Employees/CreateEmployee - 500 null text/plain; charset=utf-8 6036.0985ms
+2025-02-16 22:36:10.894 +05:30 [INF] Now listening on: https://localhost:7180
+2025-02-16 22:36:10.979 +05:30 [INF] Now listening on: http://localhost:5017
+2025-02-16 22:36:10.986 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-16 22:36:10.988 +05:30 [INF] Hosting environment: Development
+2025-02-16 22:36:10.989 +05:30 [INF] Content root path: E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.API
+2025-02-16 22:36:15.524 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/swagger/index.html - null null
+2025-02-16 22:36:16.000 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/swagger/index.html - 200 null text/html;charset=utf-8 492.6533ms
+2025-02-16 22:36:16.111 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-16 22:36:16.112 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/swagger/index.js - null null
+2025-02-16 22:36:16.112 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/_vs/browserLink - null null
+2025-02-16 22:36:16.161 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 49.3328ms
+2025-02-16 22:36:16.178 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/swagger/index.js - 200 null application/javascript;charset=utf-8 66.791ms
+2025-02-16 22:36:16.656 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/_vs/browserLink - 200 null text/javascript; charset=UTF-8 544.0118ms
+2025-02-16 22:36:17.394 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/swagger/v1/swagger.json - null null
+2025-02-16 22:36:17.678 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 284.0685ms
+2025-02-16 22:36:31.278 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7180/api/Employees/CreateEmployee - application/json 124
+2025-02-16 22:36:31.298 +05:30 [INF] Executing endpoint 'EmployeeManagement.API.Controllers.EmployeesController.CreateEmployee (EmployeeManagement.API)'
+2025-02-16 22:36:31.353 +05:30 [INF] Route matched with {action = "CreateEmployee", controller = "Employees"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Int32]] CreateEmployee(EmployeeManagement.Domain.Entities.Employee) on controller EmployeeManagement.API.Controllers.EmployeesController (EmployeeManagement.API).
+2025-02-16 22:36:35.458 +05:30 [INF] Executed DbCommand (103ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+CALL InsertEmployee(@p0, @p1, @p2, @p3)
+2025-02-16 22:36:35.482 +05:30 [INF] Executing CreatedAtActionResult, writing value of type '<>f__AnonymousType2`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-16 22:36:35.517 +05:30 [INF] Executed action EmployeeManagement.API.Controllers.EmployeesController.CreateEmployee (EmployeeManagement.API) in 4155.231ms
+2025-02-16 22:36:35.522 +05:30 [INF] Executed endpoint 'EmployeeManagement.API.Controllers.EmployeesController.CreateEmployee (EmployeeManagement.API)'
+2025-02-16 22:36:35.528 +05:30 [ERR] HTTP POST /api/Employees/CreateEmployee responded 500 in 4236.3888 ms
+System.InvalidOperationException: No route matches the supplied values.
+   at Microsoft.AspNetCore.Mvc.CreatedAtActionResult.OnFormatting(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-02-16 22:36:35.593 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No route matches the supplied values.
+   at Microsoft.AspNetCore.Mvc.CreatedAtActionResult.OnFormatting(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-16 22:36:35.637 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7180/api/Employees/CreateEmployee - 500 null text/plain; charset=utf-8 4359.4015ms
+2025-02-16 22:40:32.318 +05:30 [INF] Now listening on: https://localhost:7180
+2025-02-16 22:40:32.418 +05:30 [INF] Now listening on: http://localhost:5017
+2025-02-16 22:40:32.427 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-16 22:40:32.428 +05:30 [INF] Hosting environment: Development
+2025-02-16 22:40:32.430 +05:30 [INF] Content root path: E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.API
+2025-02-16 22:40:36.528 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/swagger/index.html - null null
+2025-02-16 22:40:37.081 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/swagger/index.html - 200 null text/html;charset=utf-8 562.7338ms
+2025-02-16 22:40:37.190 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-16 22:40:37.194 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/swagger/index.js - null null
+2025-02-16 22:40:37.194 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/_vs/browserLink - null null
+2025-02-16 22:40:37.216 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/swagger/index.js - 200 null application/javascript;charset=utf-8 22.2137ms
+2025-02-16 22:40:37.247 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 57.09ms
+2025-02-16 22:40:37.463 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/_vs/browserLink - 200 null text/javascript; charset=UTF-8 268.6319ms
+2025-02-16 22:40:38.378 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/swagger/v1/swagger.json - null null
+2025-02-16 22:40:38.836 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 458.0219ms
+2025-02-16 22:40:56.701 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7180/api/Employees/CreateEmployee - application/json 128
+2025-02-16 22:40:56.717 +05:30 [INF] Executing endpoint 'EmployeeManagement.API.Controllers.EmployeesController.CreateEmployee (EmployeeManagement.API)'
+2025-02-16 22:40:56.787 +05:30 [INF] Route matched with {action = "CreateEmployee", controller = "Employees"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Int32]] CreateEmployee(EmployeeManagement.Domain.Entities.Employee) on controller EmployeeManagement.API.Controllers.EmployeesController (EmployeeManagement.API).
+2025-02-16 22:41:00.586 +05:30 [INF] Executed DbCommand (121ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+CALL InsertEmployee(@p0, @p1, @p2, @p3)
+2025-02-16 22:41:00.667 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-16 22:41:00.707 +05:30 [INF] Executed action EmployeeManagement.API.Controllers.EmployeesController.CreateEmployee (EmployeeManagement.API) in 3908.0366ms
+2025-02-16 22:41:00.714 +05:30 [INF] Executed endpoint 'EmployeeManagement.API.Controllers.EmployeesController.CreateEmployee (EmployeeManagement.API)'
+2025-02-16 22:41:00.721 +05:30 [INF] HTTP POST /api/Employees/CreateEmployee responded 200 in 4004.2012 ms
+2025-02-16 22:41:00.747 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7180/api/Employees/CreateEmployee - 200 null application/json; charset=utf-8 4045.565ms
+2025-02-16 22:45:14.629 +05:30 [INF] Now listening on: https://localhost:7180
+2025-02-16 22:45:14.715 +05:30 [INF] Now listening on: http://localhost:5017
+2025-02-16 22:45:14.723 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-16 22:45:14.729 +05:30 [INF] Hosting environment: Development
+2025-02-16 22:45:14.730 +05:30 [INF] Content root path: E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.API
+2025-02-16 22:45:18.923 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/swagger/index.html - null null
+2025-02-16 22:45:19.400 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/swagger/index.html - 200 null text/html;charset=utf-8 495.8887ms
+2025-02-16 22:45:19.534 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-16 22:45:19.534 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/swagger/index.js - null null
+2025-02-16 22:45:19.536 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/_vs/browserLink - null null
+2025-02-16 22:45:19.569 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/swagger/index.js - 200 null application/javascript;charset=utf-8 34.0164ms
+2025-02-16 22:45:19.604 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 70.1854ms
+2025-02-16 22:45:19.917 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/_vs/browserLink - 200 null text/javascript; charset=UTF-8 380.991ms
+2025-02-16 22:45:20.878 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/swagger/v1/swagger.json - null null
+2025-02-16 22:45:21.187 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 308.7319ms
+2025-02-16 22:45:47.001 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7180/api/Employees/UpdateEmployee12 - application/json 84
+2025-02-16 22:45:47.026 +05:30 [INF] Executing endpoint 'EmployeeManagement.API.Controllers.EmployeesController.UpdateEmployee (EmployeeManagement.API)'
+2025-02-16 22:45:47.095 +05:30 [INF] Route matched with {action = "UpdateEmployee", controller = "Employees"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateEmployee(Int32, Command) on controller EmployeeManagement.API.Controllers.EmployeesController (EmployeeManagement.API).
+2025-02-16 22:45:47.277 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-16 22:45:47.321 +05:30 [INF] Executed action EmployeeManagement.API.Controllers.EmployeesController.UpdateEmployee (EmployeeManagement.API) in 214.0841ms
+2025-02-16 22:45:47.323 +05:30 [INF] Executed endpoint 'EmployeeManagement.API.Controllers.EmployeesController.UpdateEmployee (EmployeeManagement.API)'
+2025-02-16 22:45:47.333 +05:30 [INF] HTTP PUT /api/Employees/UpdateEmployee12 responded 400 in 318.1506 ms
+2025-02-16 22:45:47.338 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7180/api/Employees/UpdateEmployee12 - 400 null application/json; charset=utf-8 337.3806ms
+2025-02-16 22:46:00.156 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7180/api/Employees/UpdateEmployee12 - application/json 85
+2025-02-16 22:46:00.165 +05:30 [INF] Executing endpoint 'EmployeeManagement.API.Controllers.EmployeesController.UpdateEmployee (EmployeeManagement.API)'
+2025-02-16 22:46:00.167 +05:30 [INF] Route matched with {action = "UpdateEmployee", controller = "Employees"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateEmployee(Int32, Command) on controller EmployeeManagement.API.Controllers.EmployeesController (EmployeeManagement.API).
+2025-02-16 22:46:02.265 +05:30 [INF] Executed DbCommand (90ms) [Parameters=[p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+CALL GetEmployee(@p0)
+2025-02-16 22:46:02.433 +05:30 [INF] Executed DbCommand (29ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+CALL UpdateEmployee(@p0, @p1, @p2, @p3, @p4)
+2025-02-16 22:46:02.455 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-16 22:46:02.458 +05:30 [INF] Executed action EmployeeManagement.API.Controllers.EmployeesController.UpdateEmployee (EmployeeManagement.API) in 2287.4476ms
+2025-02-16 22:46:02.463 +05:30 [INF] Executed endpoint 'EmployeeManagement.API.Controllers.EmployeesController.UpdateEmployee (EmployeeManagement.API)'
+2025-02-16 22:46:02.467 +05:30 [INF] HTTP PUT /api/Employees/UpdateEmployee12 responded 204 in 2302.5425 ms
+2025-02-16 22:46:02.483 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7180/api/Employees/UpdateEmployee12 - 204 null null 2327.6355ms
+2025-02-16 22:48:35.864 +05:30 [INF] Now listening on: https://localhost:7180
+2025-02-16 22:48:35.966 +05:30 [INF] Now listening on: http://localhost:5017
+2025-02-16 22:48:35.976 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-16 22:48:35.978 +05:30 [INF] Hosting environment: Development
+2025-02-16 22:48:35.980 +05:30 [INF] Content root path: E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.API
+2025-02-16 22:48:39.249 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/swagger/index.html - null null
+2025-02-16 22:48:39.835 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/swagger/index.html - 200 null text/html;charset=utf-8 601.7291ms
+2025-02-16 22:48:39.917 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/swagger/index.js - null null
+2025-02-16 22:48:39.917 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-16 22:48:39.928 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/_vs/browserLink - null null
+2025-02-16 22:48:39.951 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/swagger/index.js - 200 null application/javascript;charset=utf-8 34.12ms
+2025-02-16 22:48:39.977 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 60.3472ms
+2025-02-16 22:48:40.100 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/_vs/browserLink - 200 null text/javascript; charset=UTF-8 172.6013ms
+2025-02-16 22:48:40.921 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7180/swagger/v1/swagger.json - null null
+2025-02-16 22:48:41.244 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7180/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 323.2174ms
+2025-02-16 22:48:46.730 +05:30 [INF] Request starting HTTP/2 DELETE https://localhost:7180/api/Employees/DeleteEmployee12 - null null
+2025-02-16 22:48:46.755 +05:30 [INF] Executing endpoint 'EmployeeManagement.API.Controllers.EmployeesController.DeleteEmployee (EmployeeManagement.API)'
+2025-02-16 22:48:46.815 +05:30 [INF] Route matched with {action = "DeleteEmployee", controller = "Employees"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteEmployee(Int32) on controller EmployeeManagement.API.Controllers.EmployeesController (EmployeeManagement.API).
+2025-02-16 22:48:48.653 +05:30 [INF] Executed DbCommand (65ms) [Parameters=[p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+CALL GetEmployee(@p0)
+2025-02-16 22:48:48.757 +05:30 [INF] Executed DbCommand (17ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+CALL DeleteEmployee(@p0)
+2025-02-16 22:48:48.772 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-16 22:48:48.780 +05:30 [INF] Executed action EmployeeManagement.API.Controllers.EmployeesController.DeleteEmployee (EmployeeManagement.API) in 1954.6359ms
+2025-02-16 22:48:48.788 +05:30 [INF] Executed endpoint 'EmployeeManagement.API.Controllers.EmployeesController.DeleteEmployee (EmployeeManagement.API)'
+2025-02-16 22:48:48.795 +05:30 [INF] HTTP DELETE /api/Employees/DeleteEmployee12 responded 204 in 2043.2035 ms
+2025-02-16 22:48:48.814 +05:30 [INF] Request finished HTTP/2 DELETE https://localhost:7180/api/Employees/DeleteEmployee12 - 204 null null 2083.8758ms

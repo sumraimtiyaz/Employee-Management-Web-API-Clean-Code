@@ -1,0 +1,17 @@
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Application\obj\Debug\net8.0\EmployeeManagement.Application.csproj.AssemblyReference.cache
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Application\obj\Debug\net8.0\EmployeeManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Application\obj\Debug\net8.0\EmployeeManagement.Application.AssemblyInfoInputs.cache
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Application\obj\Debug\net8.0\EmployeeManagement.Application.AssemblyInfo.cs
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Application\obj\Debug\net8.0\EmployeeManagement.Application.csproj.CoreCompileInputs.cache
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Application\bin\Debug\net8.0\EmployeeManagement.Application.deps.json
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Application\bin\Debug\net8.0\EmployeeManagement.Application.dll
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Application\bin\Debug\net8.0\EmployeeManagement.Application.pdb
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Application\bin\Debug\net8.0\EmployeeManagement.Domain.dll
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Application\bin\Debug\net8.0\EmployeeManagement.Persistence.dll
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Application\bin\Debug\net8.0\EmployeeManagement.Domain.pdb
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Application\bin\Debug\net8.0\EmployeeManagement.Persistence.pdb
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Application\obj\Debug\net8.0\EmployeeManagement.Application.csproj.CopyComplete
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Application\obj\Debug\net8.0\EmployeeManagement.Application.dll
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Application\obj\Debug\net8.0\refint\EmployeeManagement.Application.dll
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Application\obj\Debug\net8.0\EmployeeManagement.Application.pdb
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Application\obj\Debug\net8.0\ref\EmployeeManagement.Application.dll

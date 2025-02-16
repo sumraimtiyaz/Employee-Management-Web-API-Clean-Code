@@ -1,0 +1,11 @@
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Domain\bin\Debug\net8.0\EmployeeManagement.Domain.deps.json
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Domain\bin\Debug\net8.0\EmployeeManagement.Domain.dll
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Domain\bin\Debug\net8.0\EmployeeManagement.Domain.pdb
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Domain\obj\Debug\net8.0\EmployeeManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Domain\obj\Debug\net8.0\EmployeeManagement.Domain.AssemblyInfoInputs.cache
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Domain\obj\Debug\net8.0\EmployeeManagement.Domain.AssemblyInfo.cs
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Domain\obj\Debug\net8.0\EmployeeManagement.Domain.csproj.CoreCompileInputs.cache
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Domain\obj\Debug\net8.0\EmployeeManagement.Domain.dll
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Domain\obj\Debug\net8.0\refint\EmployeeManagement.Domain.dll
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Domain\obj\Debug\net8.0\EmployeeManagement.Domain.pdb
+E:\Imtiyaz\.NET\Projects\Employee\EmployeeManagement.Domain\obj\Debug\net8.0\ref\EmployeeManagement.Domain.dll
