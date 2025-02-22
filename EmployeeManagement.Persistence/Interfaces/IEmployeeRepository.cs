@@ -10,10 +10,12 @@ namespace EmployeeManagement.Persistence.Interfaces
     public interface IEmployeeRepository
     {
         /// <summary>
-        /// Retrieves all employees from the database.
+        /// Retrieves a paginated list of employees.
         /// </summary>
-        /// <returns>A list of all employees.</returns>
-        Task<IEnumerable<Employee>> GetAllAsync();
+        /// <param name="pageIndex">The index of the page (starting from 1).</param>
+        /// <param name="rowsPerPage">The number of records per page.</param>
+        /// <returns>A list of employees.</returns>
+        Task<IEnumerable<Employee>> GetPaginatedAsync(int pageIndex, int rowsPerPage);
 
         /// <summary>
         /// Retrieves an employee by their unique ID.

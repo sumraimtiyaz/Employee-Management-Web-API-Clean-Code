@@ -21,18 +21,20 @@ namespace EmployeeManagement.Persistence.Interfaces.Implementation
         }
 
         /// <summary>
-        /// Retrieves all employees using a stored procedure.
+        /// Retrieves a paginated list of employees from the database.
         /// </summary>
-        /// <returns>A list of employees.</returns>
-        public async Task<IEnumerable<Employee>> GetAllAsync()
+        /// <param name="pageIndex">The index of the page (starting from 1).</param>
+        /// <param name="rowsPerPage">The number of records per page.</param>
+        /// <returns>A list of employees for the specified page.</returns>
+        public async Task<IEnumerable<Employee>> GetPaginatedAsync(int pageIndex, int rowsPerPage)
         {
             try
             {
-                return await _context.Employees.FromSqlRaw("CALL GetEmployees()").ToListAsync();
+                return await _context.Employees.FromSqlRaw("CALL GetEmployees({0},{1})", pageIndex, rowsPerPage).ToListAsync();
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error while fetching all employees.");
+                _logger.LogError(ex, "Error while fetching paginated employees. PageIndex: {PageIndex}, RowsPerPage: {RowsPerPage}", pageIndex, rowsPerPage);
                 throw;
             }
         }
@@ -111,6 +113,11 @@ namespace EmployeeManagement.Persistence.Interfaces.Implementation
                 _logger.LogError(ex, "Error while deleting employee with ID: {Id}", id);
                 throw;
             }
+        }
+
+        public Task<IEnumerable<Employee>> GetPaginatedAsync()
+        {
+            throw new NotImplementedException();
         }
     }
 }

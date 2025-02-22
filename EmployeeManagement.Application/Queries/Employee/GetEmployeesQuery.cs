@@ -9,14 +9,31 @@ using System.Threading.Tasks;
 
 namespace EmployeeManagement.Application.Queries.Employee
 {
-    public class GetAllEmployeesQuery
+    public class GetEmployeesQuery
     {
         /// <summary>
-        /// Represents the request to get all employees.
+        /// Represents the request to get employees with pagination.
         /// </summary>
-        public class Query : IRequest<IEnumerable<Entities.Employee>> { }
+        public class Query : IRequest<IEnumerable<Entities.Employee>> {
+            /// <summary>
+            /// Gets the index of the page (starting from 1).
+            /// </summary>
+            public int PageIndex { get; }
+
+            /// <summary>
+            /// Gets the number of records to retrieve per page.
+            /// </summary>
+            public int RowsPerPage { get; }
+
+            public Query(int pageIndex, int rowsPerPage)
+            {
+                PageIndex = pageIndex;
+                RowsPerPage = rowsPerPage;
+            }
+
+        }
         /// <summary>
-        /// Handles the request to retrieve all employees.
+        /// Handles the request to retrieve a paginated list of employees.
         /// </summary>
         public class Handler : IRequestHandler<Query, IEnumerable<Entities.Employee>>
         {
@@ -27,14 +44,14 @@ namespace EmployeeManagement.Application.Queries.Employee
                 _repository = repository;
             }
             /// <summary>
-            /// Handles the request to fetch all employees.
+            /// Handles the query to retrieve employees with pagination.
             /// </summary>
             /// <param name="request">The query request.</param>
             /// <param name="cancellationToken">Cancellation token.</param>
-            /// <returns>A list of employees.</returns>
+            /// <returns>A paginated list of employees.</returns>
             public async Task<IEnumerable<Entities.Employee>> Handle(Query request, CancellationToken cancellationToken)
             {
-                return await _repository.GetAllAsync();
+                return await _repository.GetPaginatedAsync(request.PageIndex, request.RowsPerPage);
             }
         }
     }

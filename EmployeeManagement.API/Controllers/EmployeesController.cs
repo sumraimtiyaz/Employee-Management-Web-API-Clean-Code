@@ -3,6 +3,7 @@ using EmployeeManagement.Application.Queries.Employee;
 using EmployeeManagement.Domain.Entities;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using Swashbuckle.AspNetCore.Annotations;
 
 namespace EmployeeManagement.API.Controllers
 {
@@ -18,12 +19,14 @@ namespace EmployeeManagement.API.Controllers
         }
 
         /// <summary>
-        /// Get all employees.
+        /// Retrieves a list of employees with pagination.
         /// </summary>
-        [HttpGet("GetAllEmployees")]
-        public async Task<ActionResult<IEnumerable<Employee>>> GetAllEmployees()
+        /// <param name="pageIndex">The current page index (0-based).</param>
+        /// <param name="rowsPerPage">The number of records per page.</param>
+        [HttpGet("GetEmployees")]
+        public async Task<ActionResult<IEnumerable<Employee>>> GetEmployees(int pageIndex = 1, int rowsPerPage = 4)
         {
-            var employees = await _mediator.Send(new GetAllEmployeesQuery.Query());
+            var employees = await _mediator.Send(new GetEmployeesQuery.Query(pageIndex, rowsPerPage));
             return Ok(employees);
         }
 
